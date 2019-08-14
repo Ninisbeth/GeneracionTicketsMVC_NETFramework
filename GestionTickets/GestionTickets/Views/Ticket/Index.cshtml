@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Listado de Tickets";
+}
+
+<h2>
+    <a href="@Url.Action("Nuevo","Ticket")" style="float:right; color:green;"><i class="fas fa-plus-circle"></i></a>
+    Listado de Tickets
+</h2>
+<hr/>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th># Ticket</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+            <th>Usuario</th>
+            <th>Responsable</th>
+        </tr>
+    </thead>
+</table>
